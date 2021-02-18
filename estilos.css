@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+/*css selecctor de etiqueta, propiedad * valor 
+elementos BLOCK  ocupan el ancho de la pantalla
+-selectores 3 tipos
+ *etiqueta
+ *id #  se aplica pra darle a un solo elemento
+*clase*/
+
+body{
+    background-color: rgba(62, 67, 70, 0.5);
+}
+
+
+#cabeceraweb{
+    background-color: cadetblue;
+
+}
+
+nav{
+    background-color: rgb(111, 112, 116);
+    padding-top: 3px;
+    padding-block-end: 5px;
+
+}
+
+li{
+    background-color: rgb(91, 91, 95);
+    display: inline; /*para poner los elementos uno tras otro*/
+    
+}
+
+
+aside{
+    background-color: rgb(136, 139, 136);
+    float: left; /*este eklemento hace flotar la barra*/
+    height: 1000px; /*para darle un alto*/
+    clear: both;
+    margin-block-end: 20px;
+    padding: ; /*el contendio de contendero la separacion */
+}
+
+blockquote{
+    background-color: rgb(148, 147, 145);
+}
+
+#seccion{
+    background-color: rgb(151, 148, 148);
+    margin-left:200px ;
+    padding-left: 15px;
+    padding-top: 15px;
+
+}
+
+footer{
+    margin-left: 1000px;
+
+}
+
