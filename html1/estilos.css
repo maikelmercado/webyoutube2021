@@ -37,7 +37,7 @@ aside{
     height: 1000px; /*para darle un alto*/
     clear: both;
     margin-block-end: 20px;
-    padding: ; /*el contendio de contendero la separacion */
+    padding: 20px; /*el contendio de contendero la separacion */
 }
 
 blockquote{
