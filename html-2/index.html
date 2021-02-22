@@ -19,24 +19,30 @@
         background: -o-linear-gradient(bottom, #00f,#999 ); /*para darle degradez */
         background: -webkit-gradient(top, #00f,#999 );
         background: linear-gradient(to bottom right,rgb(100, 107, 106),lime);/*para darle degradez  poniendo % se va desgradando*/
-        outline-offset: 15px; /*para poner un brode entorno al elemento*/
+        
 
 
     }
+
+    #principal:hover{  /*esto es una pseudo clase se modifica desde aca poniendo la id que corresponde */
+        outline-offset: 15px; /*para poner un brode entorno al elemento*/
+        transform: rotate(5deg); /*para mover cuando se pasas el raton por encima */
+
+    }
+
     #segundo{
         width: 500px;  /*ancho*/
        /* background-color: aquamarine;*/
         text-align: center; /*para centra*/
         margin-left: auto; /*lo centra sea cual sea la pantalla*/
-        padding: 15px; /*se se ponen mas valores serian de izquierda derecha arriba y abajo*/
+        padding: 30px; /*se se ponen mas valores serian de izquierda derecha arriba y abajo*/
         border: 3px solid cornflowerblue;
         border-radius: 30px; /*para bordear las cosas*/
         box-shadow: #999  5px 5px 10px 5px; /*sobra*/
         background: linear-gradient(to bottom right,rgb(34, 189, 165),rgb(80, 82, 80));
-        transform: scale(1);
-        
-
-        
+        transform: scale(1); /*para tranformar un elemento */
+        transform: rotate(20deg); /*para girar o 360 el bloque*/
+       
 
 
     }
@@ -44,6 +50,11 @@
         font:bold 36px Verdana, Geneva, sans-serif; /*negrita, tamaño de letra, tipo de letra*/
         text-shadow: rgb(68, 95, 57) 3px 3px 5px; /*sombra el texto*/
         color:rgba(rgb(131, 64, 64), rgb(35, 87, 35), rgb(4, 4, 41), 2.0); /*color de las letras*/
+    }
+    #images:hover{ /*esta seuda clase se debe poner hover para que pueda hcaer el efecto*/
+        transform: rotate(10deg);
+        
+
     }
 
     /*permite que todos vean un tipo de letra
@@ -63,6 +74,13 @@
         <span id="titulo">Estilos CSS 3  </span> <!--SE UTILIZA PARA APLICAR ESTILOS A ALGUNAS PALABRAS -->
 
     </header>
+
+    <figure >
+        <img id="images" src="img/html-css.jpg" alt="">
+    </figure>
+
+
+
     
 </body>
 </html>

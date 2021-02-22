@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+/*sacar un codigo que reseta los navegadores*/
+
+body{
+    background-color: rgb(149, 153, 135);
+    font-size: 62,5%; /*para dar un formato de letra a toda la pagina*/
+}
+header{
+    background: rgb(107, 185, 119);
+    text-align: center;
+    padding: 5px;
+    border-radius: 30px; /*contornos redondeados*/
+    margin: 10px auto; /*los margenes superior, inferiores y constaados*/
+    width: 35%; /*para dar ancho al contenedor*/
+    background: linear-gradient(to bottom right,rgb(100, 107, 106),rgb(93, 177, 93));
+    box-shadow: #000 5px 5px 10px; /* para dar sombre*/
+    
+}
+
+
+h1{
+    font: normal 2.4em Verdana, Geneva, sans-serif; /*tamaño al texto*/
+    background: -o-linear-gradient(top, rgb(63, 61, 146));
+    text-shadow: rgb(78, 64, 64) 5px 5px 10px;
+    
+
+}
+nav{
+    background-color: rgb(103, 127, 128);
+    padding-top: 1px;
+    padding-block-end: 1px;
+    width: 35%; /*para  poner mas chico el contenedor*/
+    border-radius: 10px; /*bordes redondos*/
+    background: linear-gradient(to bottom right,rgb(100, 107, 106),rgb(85, 136, 85));
+}
+li{
+    display: inline;
+    color: rgb(248, 248, 248);
+    font-style: italic;
+}
+section{
+    margin: 15px auto;
+    border-top: 1px dashed #999;
+    width: 91%;
+
+}
+
+figure{
+    float:left;      /* se van popniendo una tras otra hacia la derecha*/
+    
+
+
+}
+figure img{
+    padding: 4px;
+    background: #666;
+    border-radius: 20px;
+    transition: transform 0.3s  ease-in-out;
+    box-shadow: #666 5px 5px 10px;
+    
+}
+figure img:hover{ /*seudo clase hover cuandoa pase el raton por encima */
+    transform: scale(1.2);
+
+}
+
+footer{
+    clear: both; /*rompemos float*/
+    padding-top: 100px;
+}
+
+footer p {
+    font: small ;
+    color: #666;
+    margin: 20px 8px;
+    text-align: center;
+
+}
